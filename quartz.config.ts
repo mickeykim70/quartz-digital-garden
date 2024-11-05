@@ -17,7 +17,7 @@ const config: QuartzConfig = {
     },
     locale: "ko-KR", /* 한국어 */
     baseUrl: "curio.netlify.app",  /* 네틀리파이 주소 */
-    ignorePatterns: ["private", "templates", ".obsidian"],
+    ignorePatterns: ["private", "templates", "_templates", ".obsidian"],
     defaultDateType: "created",
     theme: {
       fontOrigin: "googleFonts",
